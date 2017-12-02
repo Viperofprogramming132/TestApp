@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestApp
 {
-    class Cabinet
+    public class Cabinet
     {
     }
 }
