@@ -12,6 +12,7 @@ namespace TestApp
         private string m_CountryName;
         private byte m_CountryID;
 
+        
         public List<Site> Sites { get { return m_Sites; } set { m_Sites = value; } }
         public string CountryName { get { return m_CountryName; } set { m_CountryName = value; } }
         public byte CountryID { get { return m_CountryID; } set { m_CountryID = value; } }
@@ -21,12 +22,14 @@ namespace TestApp
         /// </summary>
         public Country()
         {
+            int i = 0;
 
+            i++;
         }
 
 
         /// <summary>
-        /// Desconstuctor destory all veriables here for garbage collection
+        /// Desconstuctor destory all variables here for garbage collection
         /// </summary>
         ~Country()
         {
